@@ -9,7 +9,7 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-  color: #EA12C2;
+  color: #7E86D6
 }
 
 #mainNavbar .nav-link {
@@ -17,5 +17,21 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-  color: #EA12C2;
+  color: #7E86D6
+}
+
+#headingGroup span {
+  color: #7E86D6;
+
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+  font-size: 2,5rem;
+  }
 }
